@@ -33,7 +33,7 @@ cardSection.innerHTML = cardHolder;
 
 //Answer to question 2
 let day;
-switch () {
+switch (new Date().getDate()) {
     case 0:
     day = "Sunday"
     break;
@@ -76,7 +76,7 @@ console.log(power)
 
 //Answer to question 7
 function product (a,b) {
-    multiply = a * b
+    return multiply = a * b
 }
 
 product(2 ,30)
@@ -86,7 +86,7 @@ console.log(multiply)
 let names = "Great Pam"
 
 function hello () {
-    hello = "Hello" + names
+    return hello = "Hello" + names
 }
 
 hello()

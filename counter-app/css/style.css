@@ -1,0 +1,49 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 15%;
+    border: 3px solid black;
+    margin: 20px;
+}
+
+.green {
+    color: green;
+}
+
+.orange {
+    color: orange;
+}
+
+.red {
+    color: red;
+}
+
+button {
+    cursor: pointer;
+}
+
+.h-100 {
+    min-height: 100vh;
+}
