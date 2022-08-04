@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/post.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>POST PAGE</title>
+</head>
+<body>
+    <main>
+        <section class="form-section">
+            <div class="grid d-lg-flex align-items-center">
+                <div class="col-lg">
+                    <form action="" method="post" id="post-form">
+                        <h1 class="py-3">Post Page</h1>
+                        <div class="field">
+                            <label for="title">Post Title:</label><br>
+                            <input type="text" class="py-2 px-5  mb-4 round-2 " id="title" name="ptitle" placeholder="Enter Title here" />
+                            <small></small>
+                        </div>
+                        <div class="field">
+                            <label for="body">Post Body:</label><br>
+                            <textarea name="body" class="py-2 px-5 my-2 round-2 " id="body" cols="30" rows="3" placeholder="Enter body content here"></textarea>
+                            <small></small>
+                        </div>
+                        <button class="btn btn-primary border-3 my-5 p-3"  type="submit">Create Post</button>
+                    </form>
+                </div>
+                <div class="col-lg">
+                    <img src="img/send.png" alt="..." class="img-fluid img-thumbnail round-5">
+                </div>
+            </div>
+        </section>
+
+        <section class="d-flex justify-content-around >
+            <div class="w-100  d-flex flex-wrap container justify-content-center flex-direction-column mt-5 gy-5 align-items-center'></section>
+                <div class="posts card bg-primary p-3 m-3">
+                    <h4>ID</h4>
+                    <p>Title:</p>
+                    <p>Body:</p>
+                    <div class="btn-container d-flex justify-content-around border-none round-3 w-100 p-5">
+                        <button class="btn-success p-2 border-0 rounded-pill ">UPDATE</button>
+                            
+                        <button class="btn-warning p-2 mx-2 border-0 rounded-pill" >VIEW</button>
+
+                        <button class="btn-danger p-2 border-0 rounded-pill" >DELETE</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="JS/bootstrap.js"></script>
+    <script src="JS/post.js"></script>
+</body>
+</html>
